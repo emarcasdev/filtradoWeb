@@ -1,0 +1,121 @@
+body {
+    background-color: rgb(204, 163, 209);
+    color: rgb(46, 2, 82);
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin-top: 3%;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.buscador {
+    margin-top: 1.25%;
+    margin-bottom: 4.5%;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.buscador input[type="text"] {
+    padding: 0.5rem;
+    border-radius: 1rem;
+    border: 1px solid rgb(46, 2, 82);
+    font-size: 1.1rem;
+    width: 14%; 
+}
+
+.buscador button[type="submit"] {
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    background-color: rgb(46, 2, 82);
+    color: white;
+    border: none;
+    font-size: 1.1rem;
+    margin-left: 0.5rem; 
+}
+
+
+.navegador {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(161, 94, 161, 0.596);
+    padding: 0.6rem;
+}
+
+.navegador ul {
+    list-style: none;
+    padding: 0;
+}
+
+.navegador ul li {
+    display: inline;
+    margin: 0 1.9rem; 
+}
+
+.navegador img {
+    margin-bottom: -4%;
+    width: 4.5rem; 
+    height: auto;
+}
+
+.navegador img:hover {
+    transform: scale(1.5); /* Aumenta el tamño de las img al pasar el ratón */
+}
+
+
+.footer {
+    background-color: rgb(138, 106, 138);
+    color: rgba(255, 255, 255, 0.589);
+    text-align: center;
+    padding: 1rem;
+    position: static;  /* Quede abajo */
+    width: 99.2%;
+}
+
+.contenedor-cart {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 10%;
+}
+
+/* Estilo de la card */
+.card {
+    background-color: rgb(168, 129, 172);
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    width: 20rem; 
+    height: 22rem; 
+    border: 1px solid  white;
+    border-radius: 0.8rem; 
+    box-shadow: 0 0.4rem 0.8rem rgba(0, 0, 0, 0.1);
+    margin: 1rem; 
+}
+
+.card img {
+    width: 70%; 
+    height: auto; 
+    margin-top: 5%;
+    border-bottom: 1px  solid white;
+}
+
+.info {
+    padding: 1rem;
+    text-align: center; 
+}
+
+.info h2 {
+    margin-top: 0;
+    font-size: 1.2rem; 
+}
+
+.info p {
+    margin-bottom: 0;
+    font-size: 0.9rem; 
+}
