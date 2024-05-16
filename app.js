@@ -40,6 +40,21 @@ $(document).ready(function () {
             img: "./multimedia/idriss.png",
             nombre: "Idriss El Aziri",
             desc: "Alumno de Aulaestudio, es campeón gallego (solo le ganó a uno)."
+        },
+        {
+            img: "./multimedia/angel.png",
+            nombre: "Ángel Panadero",
+            desc: "Alumno de Aulaestudio, presidente de Marlboro."
+        },
+        {
+            img: "./multimedia/diego.png",
+            nombre: "Diego Pérez",
+            desc: "Alumno de Aulaestudio, es traficante de objetos (cartas, videojuegos, etc...)."
+        },
+        {
+            img: "./multimedia/rober.png",
+            nombre: "Roberto Castro",
+            desc: "Profesor de Aulaestudio, es el ADMIN de la clase."
         }
     ];
 
@@ -76,6 +91,12 @@ $(document).ready(function () {
                     </div>
                 </div>`
             );
+        }
+
+        if ($('.contenedor-cart').length === 0) {
+            $('.contenedor-cart').append(
+                `<div><h2>NO HAY USUARIOS CON ES</div>`
+            )
         }
     });
 
