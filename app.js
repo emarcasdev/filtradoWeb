@@ -92,12 +92,5 @@ $(document).ready(function () {
                 </div>`
             );
         }
-
-        if ($('.contenedor-cart').length === 0) {
-            $('.contenedor-cart').append(
-                `<div><h2>NO HAY USUARIOS CON ES</div>`
-            )
-        }
     });
-
 });
